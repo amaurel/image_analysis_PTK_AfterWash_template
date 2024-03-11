@@ -1,0 +1,42 @@
+{
+ "kind": "FileDocument",
+ "id": "operators/ba3163d67612e4be851fad45615f5319/operator.json",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "operator.json",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "7",
+ "dataUri": "lfs/59/72/412bb686a4ca801d7bdc5c60e90df9d8af85411dec61891c1c07c4d07fbb",
+ "metadata": {
+  "kind": "FileMetadata",
+  "contentType": "",
+  "cacheControl": "",
+  "contentEncoding": "",
+  "contentLanguage": "",
+  "md5Hash": ""
+ },
+ "size": 1818
+}

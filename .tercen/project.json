@@ -1,0 +1,30 @@
+{
+ "kind": "Project",
+ "id": "",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": "https://github.com/amaurel/image_analysis_PTK_AfterWash_template"
+ },
+ "version": "d875d1f5a05c43a072de114df5f2261187e3a053",
+ "isPublic": false
+}
