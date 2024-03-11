@@ -1,0 +1,159 @@
+{
+ "kind": "ComputedTableSchema",
+ "id": "85542705508a4886b1f800f3e39d491ad61e9fedb549daae7f7fda4611989b66",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "b1873c00-c983-1f07-b095-47e01e01426e",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "85542705508a4886b1f800f3e39d491ad61e9fedb549daae7f7fda4611989b66"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 1,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "0792fb16-8d19-4532-944f-6f87bb10c5fd",
+   "name": "ds5.value",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/85/54/85542705508a4886b1f800f3e39d491ad61e9fedb549daae7f7fda4611989b66",
+ "relation": {
+  "kind": "Relation",
+  "id": "09f29631-789a-41fe-b7a2-c463e8c1ee9b"
+ },
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "RenameRelation",
+   "id": "c5872518-a02f-4e5e-8fb6-d521e183308f",
+   "relation": {
+    "kind": "SimpleRelation",
+    "id": "2feb43a1743065832ce4abdfb7073db3f7a07014bd2a39466a663bf47fa0dd0b",
+    "index": 0
+   },
+   "inNames": [
+    "ID",
+    "Sequence",
+    "SeqMatch",
+    "UniprotName",
+    "UniprotID",
+    "SeqSimilarity",
+    "family",
+    "2feb43a1743065832ce4abdfb7073db3f7a07014bd2a39466a663bf47fa0dd0b._rids"
+   ],
+   "outNames": [
+    "ID",
+    "Sequence",
+    "SeqMatch",
+    "UniprotName",
+    "UniprotID",
+    "SeqSimilarity",
+    "family",
+    "rowId"
+   ]
+  },
+  "colColumns": [],
+  "rowColumns": [],
+  "axisQueries": [
+   {
+    "kind": "CubeAxisQuery",
+    "pointSize": 4,
+    "chartType": "point",
+    "yAxis": {
+     "kind": "Factor",
+     "name": "SeqSimilarity",
+     "type": "double"
+    },
+    "yAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "xAxis": {
+     "kind": "Factor",
+     "name": "",
+     "type": "string"
+    },
+    "xAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "errors": [],
+    "labels": [],
+    "colors": [],
+    "preprocessors": []
+   }
+  ],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": []
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "ds5",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "Mean",
+    "version": "1.3.2",
+    "operatorId": "5",
+    "operatorKind": "ROperator",
+    "propertyValues": [],
+    "url": {
+     "kind": "Url",
+     "uri": "https://github.com/tercen/mean_operator"
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "",
+     "ontologyVersion": "",
+     "inputSpecs": [],
+     "outputSpecs": []
+    }
+   },
+   "environment": [],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}

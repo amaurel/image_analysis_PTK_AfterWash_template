@@ -1,6 +1,6 @@
 {
  "kind": "Workflow",
- "id": "5",
+ "id": "6",
  "isDeleted": false,
  "rev": "",
  "description": "image analysis PTK afterwash",
@@ -3333,9 +3333,9 @@
    },
    "state": {
     "kind": "StepState",
-    "taskId": "",
+    "taskId": "bcdac7ec1d95d16c51d543e0955fa65e",
     "taskState": {
-     "kind": "InitState"
+     "kind": "DoneState"
     }
    },
    "description": "Perform computation on user defined projection.",
@@ -3490,14 +3490,14 @@
      "namespace": "ds5",
      "operatorRef": {
       "kind": "OperatorRef",
-      "name": "",
-      "version": "",
-      "operatorId": "",
-      "operatorKind": "",
+      "name": "Mean",
+      "version": "1.3.2",
+      "operatorId": "5",
+      "operatorKind": "ROperator",
       "propertyValues": [],
       "url": {
        "kind": "Url",
-       "uri": ""
+       "uri": "https://github.com/tercen/mean_operator"
       },
       "operatorSpec": {
        "kind": "OperatorSpec",
@@ -3545,8 +3545,28 @@
     "taskId": ""
    },
    "computedRelation": {
-    "kind": "Relation",
-    "id": "9ad43fee-0601-48ac-b480-6738929a21dd"
+    "kind": "CompositeRelation",
+    "id": "000ad255-4e40-4a50-b2c6-98ae2caad5ca",
+    "joinOperators": [
+     {
+      "kind": "JoinOperator",
+      "joinType": "",
+      "leftPair": {
+       "kind": "ColumnPair",
+       "lColumns": [],
+       "rColumns": []
+      },
+      "rightRelation": {
+       "kind": "SimpleRelation",
+       "id": "85542705508a4886b1f800f3e39d491ad61e9fedb549daae7f7fda4611989b66",
+       "index": 0
+      }
+     }
+    ],
+    "mainRelation": {
+     "kind": "Relation",
+     "id": "07d09e6e-17b4-4055-bd92-372ff49a60f9"
+    }
    },
    "parentDataStepId": ""
   }
